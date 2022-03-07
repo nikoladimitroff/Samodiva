@@ -7,7 +7,6 @@ fn main() {
     variables.push(String::from("Mid"));
     variables.push(String::from("Bot"));
 
-    let x: samodiva::constraints::VariableIndex;
     let mut constraints = Vec::new();
     let c = samodiva::constraints::Constraint::OneOf(vec![0, 1, 2], 9);
     constraints.push(c);
