@@ -20,6 +20,15 @@
 				"$rustc"
 			],
 			"label": "Rust: cargo run"
+		},
+		{
+			"type": "cargo",
+			"subcommand": "test",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"group": "test",
+			"label": "Rust: cargo test - Samodiva"
 		}
 	]
 }
