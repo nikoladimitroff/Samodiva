@@ -17,8 +17,9 @@ fn main() {
     domains.push(vec![7, 8]);
 
     
+    let mut domain_names = Vec::new();
     let mut p = samodiva::constraints::ConstraintProblem {
-        variables, domains, constraints
+        variables, domains, constraints, domain_names
     };
-    p.ac2001();
+    p.propagate_constraints();
 }
