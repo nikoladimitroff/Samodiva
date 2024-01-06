@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Samodiva">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{cd53928c-ab4f-40e9-a16c-2c190e60580a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\doctest">
+      <UniqueIdentifier>{abd09444-f4b3-4330-8372-8e82bb2e9c80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TestMain.cpp">
+      <Filter>Samodiva</Filter>
+    </ClCompile>
+    <ClCompile Include="Constraints.cpp">
+      <Filter>Samodiva</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ThirdParty\doctest\doctest.h">
+      <Filter>ThirdParty\doctest</Filter>
+    </ClInclude>
+    <ClInclude Include="Constraints.h">
+      <Filter>Samodiva</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

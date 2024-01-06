@@ -1,2 +1,2 @@
 # Samodiva
-An AI library in Rust
+An AI library in C++
