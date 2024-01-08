@@ -34,7 +34,7 @@ namespace ConstraintTypes
 		VariableCount NumberToHaveIt;
 		Exactly(VariableValue value, VariableCount numberToHaveIt)
 			: ValueToHave(value)
-			, NumberToHaveIt(NumberToHaveIt)
+			, NumberToHaveIt(numberToHaveIt)
 		{}
 		auto operator<=>(const Exactly&) const = default;
 	};
@@ -45,7 +45,7 @@ namespace ConstraintTypes
 		VariableCount NumberToHaveIt;
 		AtMost(VariableValue value, VariableCount numberToHaveIt)
 			: ValueToHave(value)
-			, NumberToHaveIt(NumberToHaveIt)
+			, NumberToHaveIt(numberToHaveIt)
 		{}
 		auto operator<=>(const AtMost&) const = default;
 	};
